@@ -1,0 +1,17 @@
+{
+  "name": "student-wallet-polymer",
+  "version": "1.0.0",
+  "description": "Student Wallet application built with Polymer 3",
+  "type": "module",
+  "scripts": {
+    "start": "wds --node-resolve --open --app-index index.html --port 8000",
+    "serve": "wds --node-resolve --app-index index.html --port 8000"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@polymer/polymer": "^3.5.1"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6"
+  }
+}
